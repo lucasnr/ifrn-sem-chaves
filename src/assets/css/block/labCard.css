@@ -1,0 +1,99 @@
+@font-face {
+    src: url(../../font/Aprova-Regular.woff2);
+    font-family: 'Aprova';
+}
+
+.labCard {
+    background-color: rgb(56, 81, 105);
+    border-bottom: 2em solid rgba(255, 255, 255, .1);
+    max-width: 320px;
+    color: white;
+    padding: 1em;
+    border-radius: 2px;
+    display: inline-block;
+    width: 100%;
+    margin: .5em;
+    font-family: 'Aprova';
+}
+
+.labCard-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+}
+
+.labCard-header .labCard-number {
+    border-radius: 50%;
+    font-weight: bold;
+    width: 1em;
+    height: 1em;
+    border: 2px solid white;
+    padding: .75em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labCard-header .labCard-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.labCard-hover {
+    position: relative;
+}
+
+.labCard-hover:hover > .labCard-info {
+    opacity: 1;
+}
+
+.labCard-hover .labCard-info {
+    opacity: 0;
+    transition: 300ms linear opacity;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    font-size: .5em;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,.8);
+    padding: .5em;
+    border-radius: 2px;
+    z-index: 99;
+}
+
+.dark .labCard-info {
+    color: white;
+}
+
+.labCard-body {
+    padding: 1em 0 .5em 0;
+}
+
+.labCard-body .labCard-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.labCard-body .labCard-icons-icon {
+    border: 2px solid;
+    border-radius: 50%;
+    padding: .5em;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75em;
+}
+
+.labCard-body .labCard-icons-icon i {
+    transition: 250ms;
+}

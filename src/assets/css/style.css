@@ -1,0 +1,43 @@
+body {
+    background-color: #2A3F54;
+    padding: 3em;
+}
+
+.font-1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.success {
+    color: #28a745;
+    border-color: #28a745;
+    
+    /* color: #17a2b8;
+    border-color: #17a2b8; */
+}
+
+.warning {
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.dark {
+    color: #343a40;
+    border-color: #343a40;
+}
+
+/* .success {
+    background-color: #28a745;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+
+.dark {
+    background-color: #343a40;
+} */
